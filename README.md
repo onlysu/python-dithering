@@ -1,3 +1,9 @@
+
+找到得一个可以用于电子纸，墨水屏的抖动dithering算法 python程序：
+可以修改里面的COLORS，为BW，BWR，BWRY，或者7C，等其它彩色，采用基础的FS 抖动算法；
+
+其中里面的效果，可以修改错误比，默认为16，亲测修改为20比较适合于墨水屏。
+
 # Image Dithering the Redundant Way
 
 A basic python function to dither a target image. Uses the [Floyd-Steinberg dithering](https://en.wikipedia.org/wiki/Floyd%E2%80%93Steinberg_dithering) algorithm,
